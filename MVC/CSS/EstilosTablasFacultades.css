@@ -1,0 +1,53 @@
+
+div.anchura80 
+{
+	width: 90%;
+	margin: auto; 
+}
+
+table 
+{
+	border-collapse: separate;
+	width: 100%;
+	font-family: Microsoft Sans Serif;
+	border-spacing: 3px;
+}
+
+table td, table th 
+{
+	border: 1px solid DodgerBlue; 
+}
+	
+table th 
+{
+	background-color: LightSkyBlue;
+	color: white; 
+	height: 30px;
+}
+
+table td:nth-child( 1 ) 
+{
+	width: 50%;
+	text-align: center; 
+}
+	
+table td:nth-child( 2 ) 
+{
+	width: 50%;
+	text-align: center; 	
+}
+	
+table tbody td 
+{
+	padding: 3px 5px; 
+}
+	
+table tbody tr:nth-child( odd ) 
+{
+	background-color: LightBlue; 
+}
+	
+table tbody tr:nth-child( even ) 
+{
+	background-color: PaleTurquoise; 
+}

@@ -1,0 +1,160 @@
+
+.ocultoDI 
+{
+    display: none !important;
+}
+
+.wrapper 
+{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #add8e694;
+}
+
+.formulario 
+{
+	width: 18%;
+	height: 77%;
+	background-color: white;
+	padding: 15px 40px;
+	box-sizing: border-box;
+	border-radius: 20px;
+	text-align: center;
+	border: 1px solid black;
+	font-family: narkisim;
+}
+
+.formulario h3
+{
+	margin: 0px;
+}
+
+div.form 
+{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	align-items: center;
+	height: 100%;
+	overflow: auto;
+}
+
+div.form div
+{
+	margin: 0px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+input, select 
+{
+	font-size: 1rem;
+	font-family: narkisim;
+}
+		
+.wrapper input[type="text"] 
+{
+	background-color: LightCyan;
+	border: 0px;
+	border-bottom: 0.5px solid DodgerBlue;
+	padding: 3px;
+}
+
+.wrapper input[type="text"]:focus 
+{
+	background-color: Azure;
+	outline: none;
+}
+
+.wrapper input[type="button"] 
+{
+	box-shadow:inset 0px 1px 0px 0px #efdcfb;
+	background:linear-gradient(to bottom, DodgerBlue 5%, DeepSkyBlue 100%);
+	background-color:DodgerBlue;
+	border-radius:6px;
+	border:1px solid Azure;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size: 1rem;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #9752cc;
+}
+
+.wrapper input[type="button"]:hover 
+{
+	background:linear-gradient(to bottom, DeepSkyBlue 5%, DodgerBlue 100%);
+	background-color:#bc80ea;
+}
+
+input[type="button"]:active 
+{
+	position:relative;
+	top:1px;
+}
+
+div#layermsg1 p
+{
+	color: red; 
+	font-family: narkisim;
+	margin: 0px;
+	font-size: 0.9rem;
+}
+
+div#layermsg2 p
+{
+	color: red; 
+	font-family: narkisim;
+	margin: 0px;
+	font-size: 0.9rem;
+}
+
+div#layermsg3 p
+{
+	color: red; 
+	font-family: narkisim;
+	margin: 0px;
+	font-size: 0.9rem;
+}
+
+div#layermsg4 p
+{
+	color: red; 
+	font-family: narkisim;
+	margin: 0px;
+	font-size: 0.9rem;
+}
+
+div#layermsg5 p
+{
+	color: red; 
+	font-family: narkisim;
+	margin: 0px;
+	font-size: 0.9rem;
+}
+
+div#layermsg6 p
+{
+	color: red; 
+	font-family: narkisim;
+	margin: 0px;
+	font-size: 0.9rem;
+}
+
+div#layermsg7 p
+{
+	color: red; 
+	font-family: narkisim;
+	margin: 0px;
+	font-size: 0.9rem;
+}

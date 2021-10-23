@@ -1,0 +1,50 @@
+
+div.Titulo
+{
+	width: 70%;
+	margin: auto;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+div.Titulo h1
+{
+	font-family: Microsoft Sans Serif;	
+}
+
+main div 
+{
+	width: 80%;
+	padding: 20px;
+	margin: 5px auto;
+	font-family: Microsoft Sans Serif;
+}
+	
+main div:nth-child( 1 ) 
+{
+	background-color: LightSkyBlue;
+}
+	
+main div:nth-child( 2 ) 
+{
+	background-color: LightBlue;
+}
+	
+main div:nth-child( 3 ) 
+{
+	background-color: PaleTurquoise;  
+}
+
+a
+{
+	font-family: Narkisim;
+	font-size: 1.3em;
+	text-decoration: none;
+}
+
+a:visited
+{
+	color: blue;
+}

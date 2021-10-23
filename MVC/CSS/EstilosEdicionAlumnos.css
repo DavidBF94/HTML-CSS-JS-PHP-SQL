@@ -1,0 +1,160 @@
+
+.ocultoDI2 
+{
+    display: none !important;
+}
+
+.wrapper2 
+{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #add8e694;
+}
+
+.formulario2 
+{
+	width: 18%;
+	height: 77%;
+	background-color: white;
+	padding: 15px 40px;
+	box-sizing: border-box;
+	border-radius: 20px;
+	text-align: center;
+	border: 1px solid black;
+	font-family: narkisim;
+}
+
+.formulario2 h3
+{
+	margin: 0px;
+}
+
+div.form2 
+{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	align-items: center;
+	height: 100%;
+	overflow: auto;
+}
+
+div.form2 div
+{
+	margin: 0px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+input, select 
+{
+	font-size: 1rem;
+	font-family: narkisim;
+}
+		
+.wrapper2 input[type="text"] 
+{
+	background-color: PaleGreen;
+	border: 0px;
+	border-bottom: 0.5px solid LimeGreen;
+	padding: 3px;
+}
+
+.wrapper2 input[type="text"]:focus 
+{
+	background-color: Azure;
+	outline: none;
+}
+
+.wrapper2 input[type="button"]
+{
+	box-shadow:inset 0px 1px 0px 0px #efdcfb;
+	background:linear-gradient(to bottom, LimeGreen 45%, PaleGreen 100%);
+	background-color:LimeGreen;
+	border-radius:6px;
+	border:1px solid Azure;
+	display:inline-block;
+	cursor:pointer;
+	color:white;
+	font-family:Arial;
+	font-size: 1rem;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #9752cc;
+}
+
+.wrapper2 input[type="button"]:hover 
+{
+	background:linear-gradient(to bottom, PaleGreen 5%, LimeGreen 100%);
+	background-color:#bc80ea;
+}
+
+input[type="button"]:active 
+{
+	position:relative;
+	top:1px;
+}
+
+div#layermsg1_2 p
+{
+	color: red; 
+	font-family: narkisim;
+	margin: 0px;
+	font-size: 0.9rem;
+}
+
+div#layermsg2_2 p
+{
+	color: red;
+	font-family: narkisim;
+	margin: 0px;
+	font-size: 0.9rem;
+}
+
+div#layermsg3_2 p
+{
+	color: red; 
+	font-family: narkisim;
+	margin: 0px;
+	font-size: 0.9rem;
+}
+
+div#layermsg4_2 p
+{
+	color: red; 
+	font-family: narkisim;
+	margin: 0px;
+	font-size: 0.9rem;
+}
+
+div#layermsg5_2 p
+{
+	color: red;
+	font-family: narkisim;
+	margin: 0px;
+	font-size: 0.9rem;
+}
+
+div#layermsg6_2 p
+{
+	color: red; 
+	font-family: narkisim;
+	margin: 0px;
+	font-size: 0.9rem;
+}
+
+div#layermsg7_2 p
+{
+	color: red;
+	font-family: narkisim;
+	margin: 0px;
+	font-size: 0.9rem;
+}
